@@ -47,8 +47,8 @@ Este projeto utiliza o Streamlit para criar uma aplicação web interativa que p
 1. Clone o repositório:
 
     ```bash
-      git clone https://github.com/professorRaphael/nome-do-repositorio.git
-      cd nome-do-repositorio
+      git clone https://github.com/professorRaphael/ProjetoMercado.git
+      cd ProjetoMercado
     ```
 
 2. Crie um ambiente virtual e ative-o:
