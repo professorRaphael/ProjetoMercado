@@ -35,7 +35,6 @@ Este projeto utiliza o Streamlit para criar uma aplicação web interativa que p
 └── requirements.txt
 ```
 
-
 - **assets/supermarket_sales.csv**: Arquivo CSV contendo os dados de vendas do supermercado.
 - **controller/controller.py**: Contém a classe `ControladorSupermercado` que coordena as operações entre o modelo e a visualização.
 - **model/model.py**: Contém a classe `ModeloSupermercado` que lida com o carregamento e processamento dos dados.
@@ -47,31 +46,33 @@ Este projeto utiliza o Streamlit para criar uma aplicação web interativa que p
 
 1. Clone o repositório:
 
-```bash
-   git clone https://github.com/professorRaphael/nome-do-repositorio.git
-   cd nome-do-repositorio
-```
+    ```bash
+      git clone https://github.com/professorRaphael/nome-do-repositorio.git
+      cd nome-do-repositorio
+    ```
 
 2. Crie um ambiente virtual e ative-o:
-   
-python -m venv venv
-source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
+
+    python -m venv venv
+    source venv/bin/activate  # No Windows, use `venv\Scripts\activate`
 
 3. Instale as dependências:
-```bash
-pip install -r requirements.txt
-```
+
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Executando a Aplicação
 
 1. Certifique-se de que o arquivo supermarket_sales.csv está no diretório assets.
 
 2. Execute o script main.py com o Streamlit:
-```python
-streamlit run main.py
-```
 
-3. Acesse a aplicação no seu navegador através do endereço indicado pelo Streamlit (geralmente http://localhost:8501).
+    ```python
+    streamlit run main.py
+    ```
+
+3. Acesse a aplicação no seu navegador através do endereço indicado pelo Streamlit (geralmente <http://localhost:8501>).
 
 ## Exemplo de Uso
 
@@ -82,7 +83,6 @@ A aplicação apresenta uma barra lateral com diferentes widgets para seleção 
 ### Modelo (model/model.py)
 
 O modelo é responsável por carregar e preparar os dados.
-
 
 - Classe ModeloSupermercado:
 
@@ -120,10 +120,22 @@ O controlador coordena as interações entre o modelo e a visualização.
 
 O script principal que configura e executa a aplicação Streamlit.
 
-## Carrega os dados.
+## Carrega os dados
+
 - Carrega os dados.
 - Configura a barra lateral com os widgets para seleção de mês.
 - Exibe os resultados e gráficos baseados na seleção do usuário.
 
 ## Contribuição
+
 - Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests.
+
+## ScreenShot
+
+![alt text](./assets/image.png)
+
+![alt text](./assets/image-1.png)
+
+![alt text](./assets/image-2.png)
+
+![alt text](./assets/image-3.png)
