@@ -6,6 +6,7 @@ import os
 def main(caminho: str) -> None:
     controlador = ControladorSupermercado(caminho)
     controlador.modelo.criar_coluna_mes()
+    st.sidebar.image("assets/sm.png", caption="Logo do Supermercado", width=200)
     st.sidebar.markdown(" :balloon: __Nossas opções__ :balloon: ")
 
     mes_radio = st.sidebar.radio(
